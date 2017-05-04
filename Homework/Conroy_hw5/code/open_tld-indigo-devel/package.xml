@@ -1,0 +1,18 @@
+<package>
+  <name>open_tld</name>
+  <version>1.4.0</version>
+  <description>This is a C++ implementation of OpenTLD that was originally
+    published in MATLAB by Zdenek Kalal. OpenTLD is used for
+    tracking objects in video streams. This is a catkinized version
+    in order to work with ROS (Robot Operating System).</description>
+
+  <maintainer email="zalidis@gmail.com">Chris Zalidis</maintainer>
+  <license>GPLv3</license>
+
+  <author>Georg Nebehay</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>libopencv-dev</build_depend>
+
+</package>
